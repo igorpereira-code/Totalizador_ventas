@@ -1,8 +1,22 @@
 [
   {
-    "commitId": "HEAD",
+    "commitId": "bfe9d00652ae7d456e27aaa30765ff2fc1893931",
     "commitName": "feat: El usuario ingresa cantidad de items y precio por item → se muestra el precio total",
     "commitTimestamp": 1788478231435,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1788478311276,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Implementando index.html y presenter.js",
+    "commitTimestamp": 1788478564336,
+    "testId": 1
   }
 ]
