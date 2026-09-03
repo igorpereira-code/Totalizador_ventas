@@ -2,8 +2,8 @@ Ingreso de datos
 
 - Parte 1
 
-1. El usuario ingresa cantidad de items y precio por item → se muestra el precio total (cantidad × precio).
-2. Si la cantidad de items es 0 o negativa, se muestra un mensaje de error y no se calcula el total.
+1. El usuario ingresa cantidad de items y precio por item → se muestra el precio total (cantidad × precio). ✅
+2. Si la cantidad de items es 0 o negativa, se muestra un mensaje de error y no se calcula el total.✅
 3. Si el precio por item es negativo o no numérico, se muestra un mensaje de error.
 4. El usuario elige el estado de estado en una lista desplegada para evitar errores al introducir los estados
 

@@ -36,9 +36,39 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c157f82a20a8af48643e76dc4e29d12bf147a3b2",
     "commitName": "feat: El usuario ingresa cantidad de items 0 o negativa → se muestra un mensaje de error y no se calcula el total",
     "commitTimestamp": 1788478893497,
     "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1788478976218,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1788479040425,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788479071237,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si el precio por item es negativo o no numérico, se muestra un mensaje de error",
+    "commitTimestamp": 1788479100558,
+    "testId": 3
   }
 ]
