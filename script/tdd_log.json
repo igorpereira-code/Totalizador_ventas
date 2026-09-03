@@ -1,0 +1,8 @@
+[
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: El usuario ingresa cantidad de items y precio por item → se muestra el precio total",
+    "commitTimestamp": 1788478231435,
+    "testId": 0
+  }
+]
