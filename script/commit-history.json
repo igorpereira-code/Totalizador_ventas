@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f5a332898f8db09368011de82d583eda211fa5f5",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-03T23:36:03.000Z",
       "message": "feat: Implementando index.html y presenter.js",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/f5a332898f8db09368011de82d583eda211fa5f5"
     },
     "stats": {
       "total": 16,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-03T23:41:32.000Z",
+      "message": "feat: El usuario ingresa cantidad de items 0 o negativa → se muestra un mensaje de error y no se calcula el total",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

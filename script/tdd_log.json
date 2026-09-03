@@ -14,9 +14,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f5a332898f8db09368011de82d583eda211fa5f5",
     "commitName": "feat: Implementando index.html y presenter.js",
     "commitTimestamp": 1788478564336,
     "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788478842646,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788478869037,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: El usuario ingresa cantidad de items 0 o negativa → se muestra un mensaje de error y no se calcula el total",
+    "commitTimestamp": 1788478893497,
+    "testId": 2
   }
 ]
