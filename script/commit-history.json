@@ -437,12 +437,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1a91a71b29eb082f586b47c429ce810b027349ef",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T22:54:15.000Z",
       "message": "feat: Si la categoría es 'Bebidas alcohólicas', se aplica 7% de impuesto adicional.",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/1a91a71b29eb082f586b47c429ce810b027349ef"
     },
     "stats": {
       "total": 9,
@@ -452,6 +452,25 @@
     },
     "coverage": 100,
     "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T22:56:53.000Z",
+      "message": "feat: Si la categoría es 'Material de escritorio', se aplica 1.5% de descuento adicional.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 21,
     "failed_tests": 0,
     "conclusion": "success"
   }

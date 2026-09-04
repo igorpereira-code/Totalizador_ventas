@@ -20,6 +20,10 @@ function calcularTotal(cantidad, precio, estado = "CA", categoria = "Varios") {
     total *= 1.07;
   }
 
+  if (categoria === "Material de escritorio") {
+    total = total + total * 0.015;
+  }
+
   return total;
 }
 

@@ -102,4 +102,11 @@ describe("Ventas", () => {
   it("Si la categoría es 'Bebidas alcohólicas', se aplica 7% de impuesto adicional", () => {
     expect(calcularTotal(5, 2, "CA", "Bebidas alcohólicas")).toEqual(11.58275);
   });
+
+  //Si la categoría es 'Material de escritorio', se aplica 1.5% de descuento adicional.
+  it("Si la categoría es 'Material de escritorio', se aplica 1.5% de descuento adicional", () => {
+    expect(calcularTotal(5, 2, "CA", "Material de escritorio")).toEqual(
+      10.987375,
+    );
+  });
 });

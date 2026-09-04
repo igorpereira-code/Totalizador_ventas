@@ -610,9 +610,39 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1a91a71b29eb082f586b47c429ce810b027349ef",
     "commitName": "feat: Si la categoría es 'Bebidas alcohólicas', se aplica 7% de impuesto adicional.",
     "commitTimestamp": 1788562456582,
     "testId": 23
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1788562515570,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1788562556141,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1788562593916,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si la categoría es 'Material de escritorio', se aplica 1.5% de descuento adicional.",
+    "commitTimestamp": 1788562614221,
+    "testId": 24
   }
 ]
