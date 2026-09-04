@@ -312,9 +312,31 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bfa63c3389279fe4a805484616ae902482d0bf88",
     "commitName": "feat: Si el total es ≥ 1000 y < 3000, se aplica 3% de descuento antes del impuesto.",
     "commitTimestamp": 1788482239747,
     "testId": 12
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1788482326564,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788482346996,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Si el total es ≥ 3000 y < 7000, se aplica 5% de descuento.",
+    "commitTimestamp": 1788482362848,
+    "testId": 13
   }
 ]
