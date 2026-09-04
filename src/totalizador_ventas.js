@@ -17,13 +17,7 @@ function calcularImpuesto(total, estado) {
   return total;
 }
 
-function calcularTotal(cantidad, precio, estado) {
-  if (cantidad <= 0) {
-    return "Error: La cantidad de items debe ser mayor que 0";
-  } else if (precio < 0 || isNaN(precio)) {
-    return "Error: El precio por item debe ser un número mayor o igual a 0";
-  }
-  let total = cantidad * precio;
+function calcularDescuento(total) {
   if (total >= 1000 && total < 3000) {
     total -= total * 0.03;
   }
@@ -39,6 +33,18 @@ function calcularTotal(cantidad, precio, estado) {
   if (total >= 30000) {
     total -= total * 0.15;
   }
+  return total;
+}
+
+function calcularTotal(cantidad, precio, estado) {
+  if (cantidad <= 0) {
+    return "Error: La cantidad de items debe ser mayor que 0";
+  } else if (precio < 0 || isNaN(precio)) {
+    return "Error: El precio por item debe ser un número mayor o igual a 0";
+  }
+  let total = cantidad * precio;
+  total = calcularDescuento(total);
+
   total = calcularImpuesto(total, estado);
 
   return total;

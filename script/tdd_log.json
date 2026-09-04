@@ -416,9 +416,23 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2b2ee66db46ca2bb2b87f4a78041a667d0f036f6",
     "commitName": "feat: Si el total es ≥ 30000, se aplica 15% de descuento.",
     "commitTimestamp": 1788482697540,
     "testId": 16
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1788482887887,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: Refactorizacion, funcion calcular descuento",
+    "commitTimestamp": 1788482919609,
+    "testId": 17
   }
 ]

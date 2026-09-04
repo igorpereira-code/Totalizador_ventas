@@ -304,17 +304,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2b2ee66db46ca2bb2b87f4a78041a667d0f036f6",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T00:44:56.000Z",
       "message": "feat: Si el total es ≥ 30000, se aplica 15% de descuento.",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/2b2ee66db46ca2bb2b87f4a78041a667d0f036f6"
     },
     "stats": {
       "total": 8,
       "additions": 8,
       "deletions": 0,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T00:48:38.000Z",
+      "message": "refactor: Refactorizacion, funcion calcular descuento",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 13,
+      "deletions": 7,
       "date": "2026-09-04"
     },
     "coverage": 100,
