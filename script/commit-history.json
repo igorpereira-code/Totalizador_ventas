@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "731ce7406e48ece8b7487ead4f11274971fe8ea4",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T04:16:23.000Z",
       "message": "feat: Modificando index.html, y presenter.js",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/731ce7406e48ece8b7487ead4f11274971fe8ea4"
     },
     "stats": {
       "total": 52,
@@ -376,6 +376,25 @@
     },
     "coverage": 100,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T22:42:59.000Z",
+      "message": "feat: Si el usuario no selecciona ningún estado, se usa California (CA) por defecto.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 68,
+      "additions": 63,
+      "deletions": 5,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }

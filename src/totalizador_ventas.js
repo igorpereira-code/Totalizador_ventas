@@ -1,7 +1,7 @@
 import calcularDescuento from "./calcular_descuento.js";
 import calcularImpuesto from "./calcular_impuesto.js";
 
-function calcularTotal(cantidad, precio, estado) {
+function calcularTotal(cantidad, precio, estado = "CA") {
   if (cantidad <= 0) {
     return "Error: La cantidad de items debe ser mayor que 0";
   } else if (precio < 0 || isNaN(precio)) {

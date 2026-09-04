@@ -2,7 +2,7 @@ import calcularTotal from "./totalizador_ventas";
 import calcularDesglose from "./desglose";
 describe("Ventas", () => {
   it("El usuario ingresa cantidad de items y precio por item → se muestra el precio total ", () => {
-    expect(calcularTotal(3, 2)).toEqual(6);
+    expect(calcularTotal(3, 2)).toEqual(6.495);
   });
   //Si la cantidad de items es 0 o negativa, se muestra un mensaje de error y no se calcula el total.
   it("El usuario ingresa cantidad de items 0 o negativa → se muestra un mensaje de error y no se calcula el total", () => {
@@ -81,5 +81,10 @@ describe("Ventas", () => {
       impuesto: 3.75,
       precioTotal: 63.75,
     });
+  });
+
+  //Si el usuario no selecciona ningún estado, se usa California (CA) por defecto.
+  it("Si el usuario no selecciona ningún estado, se usa California (CA) por defecto", () => {
+    expect(calcularTotal(5, 2)).toEqual(10.825);
   });
 });

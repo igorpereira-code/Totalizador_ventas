@@ -28,8 +28,61 @@ Descuento por volumen
 
 - Parte 4
 Final
-16. Cálculo end-to-end: subtotal → aplicar descuento → aplicar impuesto sobre el monto ya descontado → mostrar precio final, replicando el ejemplo del enunciado (con imagen) para verificar que coincide.✅
-17. El resultado se muestra con formato moneda (2 decimales) mostrando el desglose completo: subtotal, % y monto de descuento, % y monto de impuesto, total final.
+16. Cálculo end-to-end: subtotal → aplicar descuento → aplicar impuesto sobre el monto ya descontado → mostrar precio final.✅
+
+Parte 5 — Estado por defecto
+
+17. Si el usuario no selecciona ningún estado, se usa California (CA) por defecto.
+
+
+Parte 6 — Categoría de producto
+
+18. El usuario elige una categoría de producto de una lista desplegable (con 'Varios' por defecto); por ahora solo se captura y se muestra, sin afectar el cálculo.
+19. Si la categoría es 'Alimentos', se aplica 2% de descuento adicional (sobre el precio ya descontado por volumen).
+20. Si la categoría es 'Bebidas alcohólicas', se aplica 7% de impuesto adicional.
+21. Si la categoría es 'Material de escritorio', se aplica 1.5% de descuento adicional.
+22. Si la categoría es 'Muebles', se aplica 3% de impuesto adicional.
+23. Si la categoría es 'Electrónicos', se aplica 4% de impuesto adicional y 1% de descuento adicional.
+24. Si la categoría es 'Vestimenta', se aplica 2% de impuesto adicional.
+25. Si la categoría es 'Varios' (default), no se aplica ningún adicional.
+26. Refactor: la tabla de impuesto/descuento adicional por categoría reemplaza los if/else repetidos de 19-25.
+
+Parte 7 — Costo de envío por peso volumétrico
+
+27. El usuario ingresa el peso volumétrico por unidad; si está entre 0 y 10, el costo de envío por unidad es $0 y se muestra el costo total (cantidad × costo unitario).
+28. Entre 11 y 20 → $3.5 por unidad.
+29. Entre 21 y 40 → $5 por unidad.
+30. Entre 41 y 80 → $6 por unidad.
+31. Entre 80 y 100 → $6.5 por unidad.
+32. Entre 101 y 200 → $8 por unidad.
+33. Mayor a 200 → $9 por unidad.
+34. Refactor: tabla de tramos de envío reemplaza los if/else de 27-33.
+35. Validación: si el peso volumétrico es negativo, no numérico o falta, se muestra un mensaje de error.
+36. Integración: el costo de envío (ya con su tabla) se suma al precio total final.
+
+Parte 8 — Tipo de cliente y descuento en envío
+
+37. El usuario elige tipo de cliente de una lista ('Normal' por defecto); por ahora solo se captura, sin afectar el cálculo.
+38. Si el cliente es 'Recurrente', se aplica 0.5% de descuento sobre el costo de envío.
+39. Si es 'Antiguo Recurrente', 1% de descuento sobre el costo de envío.
+40. Si es 'Especial', 1.5% de descuento sobre el costo de envío.
+41. Refactor: tabla de descuento de envío por tipo de cliente reemplaza los if/else de 38-40.
+
+Parte 9 — Descuentos de monto fijo (cliente + categoría + monto)
+
+42. Si el cliente es 'Recurrente', el precio neto de la orden es mayor a $3000 y la categoría es 'Alimentos', se aplica un descuento fijo adicional de $100.
+43. Si el cliente es 'Especial', el precio neto es mayor a $7000 y la categoría es 'Electrónicos', se aplica un descuento fijo adicional de $200.
+
+Parte 10 — Integración final y detalle completo
+
+44. Cálculo end-to-end con todos los factores combinados (estado, categoría, envío, cliente), verificado contra un ejemplo numérico armado a mano.
+45. Se muestra al usuario el detalle completo de todos los valores considerados: cantidad, precio unitario, estado, categoría, tipo de cliente, descuento por volumen, ajuste por categoría, descuento fijo aplicado (si corresponde), impuesto por estado, ajuste de impuesto por categoría, costo de envío, descuento de envío por cliente, y precio total.
+
+Parte 11 — Validaciones finales
+
+46. Validación: si falta o es inválida la categoría/cliente/estado, se usa el valor por defecto correspondiente en vez de fallar.
+47. Revisión final de validaciones: cantidad, precio, peso volumétrico y combinaciones inválidas quedan todas cubiertas con mensajes de error claros.
+
 
 
 

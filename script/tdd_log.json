@@ -498,9 +498,39 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "731ce7406e48ece8b7487ead4f11274971fe8ea4",
     "commitName": "feat: Modificando index.html, y presenter.js",
     "commitTimestamp": 1788495384827,
     "testId": 19
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1788561630652,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1788561709593,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788561757787,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si el usuario no selecciona ningún estado, se usa California (CA) por defecto.",
+    "commitTimestamp": 1788561780201,
+    "testId": 20
   }
 ]
