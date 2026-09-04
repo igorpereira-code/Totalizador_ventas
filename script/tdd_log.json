@@ -118,9 +118,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1b7983a9a318c4b04006a4146fcc7c548854075a",
     "commitName": "feat: Si el estado es UT, se aplica 6.65% de impuesto sobre el precio total y se muestra el precio con impuesto.",
     "commitTimestamp": 1788480886228,
     "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788480999355,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788481015464,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si el estado es NV, se aplica 8.00% de impuesto.",
+    "commitTimestamp": 1788481044964,
+    "testId": 6
   }
 ]
