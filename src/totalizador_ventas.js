@@ -16,6 +16,10 @@ function calcularTotal(cantidad, precio, estado = "CA", categoria = "Varios") {
     total *= 0.98;
   }
 
+  if (categoria === "Bebidas alcohólicas") {
+    total *= 1.07;
+  }
+
   return total;
 }
 

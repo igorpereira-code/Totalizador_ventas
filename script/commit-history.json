@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fdb875212e7f7c10dbe48b46e8ed1aa08bb19f89",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T22:49:31.000Z",
       "message": "feat: Si la categoría es 'Alimentos', se aplica 2% de descuento adicional.",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/fdb875212e7f7c10dbe48b46e8ed1aa08bb19f89"
     },
     "stats": {
       "total": 11,
@@ -433,6 +433,25 @@
     },
     "coverage": 100,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T22:54:15.000Z",
+      "message": "feat: Si la categoría es 'Bebidas alcohólicas', se aplica 7% de impuesto adicional.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }

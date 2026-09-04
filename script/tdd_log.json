@@ -564,9 +564,55 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fdb875212e7f7c10dbe48b46e8ed1aa08bb19f89",
     "commitName": "feat: Si la categoría es 'Alimentos', se aplica 2% de descuento adicional.",
     "commitTimestamp": 1788562171805,
     "testId": 22
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788562257852,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788562270115,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788562295688,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788562407807,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1788562438581,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si la categoría es 'Bebidas alcohólicas', se aplica 7% de impuesto adicional.",
+    "commitTimestamp": 1788562456582,
+    "testId": 23
   }
 ]

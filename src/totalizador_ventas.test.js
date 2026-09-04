@@ -97,4 +97,9 @@ describe("Ventas", () => {
   it("Si la categoría es 'Alimentos', se aplica 2% de descuento adicional (sobre el precio ya descontado por volumen)", () => {
     expect(calcularTotal(5, 2, "CA", "Alimentos")).toEqual(10.6085);
   });
+
+  //Si la categoría es 'Bebidas alcohólicas', se aplica 7% de impuesto adicional.
+  it("Si la categoría es 'Bebidas alcohólicas', se aplica 7% de impuesto adicional", () => {
+    expect(calcularTotal(5, 2, "CA", "Bebidas alcohólicas")).toEqual(11.58275);
+  });
 });
