@@ -722,12 +722,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "84d3906f3069c1002e672d92862a5e3f31d7fb5d",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T23:32:03.000Z",
       "message": "feat: si el peso volumétrico es negativo, no numérico o falta, se muestra un mensaje de error.",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/84d3906f3069c1002e672d92862a5e3f31d7fb5d"
     },
     "stats": {
       "total": 13,
@@ -737,6 +737,25 @@
     },
     "coverage": 100,
     "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T23:33:32.000Z",
+      "message": "feat: El usuario elige tipo de cliente de una lista ('Normal' por defecto); por ahora solo se captura, sin afectar el cálculo.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 34,
     "failed_tests": 0,
     "conclusion": "success"
   }

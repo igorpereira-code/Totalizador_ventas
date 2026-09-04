@@ -9,6 +9,7 @@ function calcularTotal(
   estado = "CA",
   categoria = "Varios",
   pesoVolumetrico,
+  tipoCliente = "Normal",
 ) {
   if (cantidad <= 0) {
     return "Error: La cantidad de items debe ser mayor que 0";

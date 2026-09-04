@@ -171,4 +171,9 @@ describe("Ventas", () => {
       "Error: El peso volumétrico debe ser un número mayor o igual a 0",
     );
   });
+
+  //El usuario elige tipo de cliente de una lista ('Normal' por defecto); por ahora solo se captura, sin afectar el cálculo.
+  it("El usuario elige tipo de cliente de una lista ('Normal' por defecto); por ahora solo se captura, sin afectar el cálculo", () => {
+    expect(calcularTotal(5, 2, "CA", "Varios", 5, "Normal")).toEqual(10.825);
+  });
 });

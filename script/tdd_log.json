@@ -972,9 +972,23 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "84d3906f3069c1002e672d92862a5e3f31d7fb5d",
     "commitName": "feat: si el peso volumétrico es negativo, no numérico o falta, se muestra un mensaje de error.",
     "commitTimestamp": 1788564724524,
     "testId": 38
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 0,
+    "numTotalTests": 34,
+    "timestamp": 1788564782955,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: El usuario elige tipo de cliente de una lista ('Normal' por defecto); por ahora solo se captura, sin afectar el cálculo.",
+    "commitTimestamp": 1788564812974,
+    "testId": 39
   }
 ]
