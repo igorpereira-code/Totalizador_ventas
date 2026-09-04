@@ -46,4 +46,9 @@ describe("Ventas", () => {
   it("Si el estado es CA, se aplica 8.25% de impuesto sobre el precio total y se muestra el precio con impuesto", () => {
     expect(calcularTotal(5, 2, "CA")).toEqual(10.825);
   });
+
+  //Si el total es ≥ 1000 y < 3000, se aplica 3% de descuento antes del impuesto.
+  it("Si el total es ≥ 1000 y < 3000, se aplica 3% de descuento antes del impuesto", () => {
+    expect(calcularTotal(500, 3, "CA")).toEqual(1575.0375);
+  });
 });

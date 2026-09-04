@@ -282,9 +282,39 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "94c7bbbde7f6b4fcfd0b9d6a8ef3e79f2f28205b",
     "commitName": "refactor: funcion calcularImpuesto",
     "commitTimestamp": 1788481943114,
     "testId": 11
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1788482013680,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1788482069388,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788482203507,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si el total es ≥ 1000 y < 3000, se aplica 3% de descuento antes del impuesto.",
+    "commitTimestamp": 1788482239747,
+    "testId": 12
   }
 ]

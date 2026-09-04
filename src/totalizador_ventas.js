@@ -24,6 +24,9 @@ function calcularTotal(cantidad, precio, estado) {
     return "Error: El precio por item debe ser un número mayor o igual a 0";
   }
   let total = cantidad * precio;
+  if (total >= 1000 && total < 3000) {
+    total -= total * 0.03;
+  }
   total = calcularImpuesto(total, estado);
 
   return total;

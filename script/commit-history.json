@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "94c7bbbde7f6b4fcfd0b9d6a8ef3e79f2f28205b",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T00:32:22.000Z",
       "message": "refactor: funcion calcularImpuesto",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/94c7bbbde7f6b4fcfd0b9d6a8ef3e79f2f28205b"
     },
     "stats": {
       "total": 19,
@@ -224,6 +224,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T00:37:19.000Z",
+      "message": "feat: Si el total es ≥ 1000 y < 3000, se aplica 3% de descuento antes del impuesto.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
