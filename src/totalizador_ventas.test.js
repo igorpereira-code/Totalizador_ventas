@@ -129,4 +129,9 @@ describe("Ventas", () => {
   it("Si la categoría es 'Varios' (default), no se aplica ningún adicional", () => {
     expect(calcularTotal(5, 2, "CA", "Varios")).toEqual(10.825);
   });
+
+  //El usuario ingresa el peso volumétrico por unidad; si está entre 0 y 10, el costo de envío por unidad es $0 y se muestra el costo total (cantidad × costo unitario).
+  it("El usuario ingresa el peso volumétrico por unidad; si está entre 0 y 10, el costo de envío por unidad es $0 y se muestra el costo total", () => {
+    expect(calcularTotal(5, 2, "CA", "Varios", 5)).toEqual(10.825);
+  });
 });

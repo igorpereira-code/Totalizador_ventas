@@ -766,9 +766,23 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "58ade9f7164c6fdc551a528c5b6b2653f64cf8c5",
     "commitName": "refactor: Metodo calcular según categoria",
     "commitTimestamp": 1788563331114,
     "testId": 29
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1788563437200,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: El usuario ingresa el peso volumétrico por unidad; si está entre 0 y 10, el costo de envío por unidad es  y se muestra el costo total (cantidad × costo unitario).",
+    "commitTimestamp": 1788563463790,
+    "testId": 30
   }
 ]
