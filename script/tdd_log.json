@@ -386,9 +386,39 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cad92f05de5446fc2541484e50d3f58a5dad5a5e",
     "commitName": "feat: Si el total es ≥ 10000 y < 30000, se aplica 10% de descuento.",
     "commitTimestamp": 1788482585499,
     "testId": 15
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1788482657275,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1788482667753,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1788482680416,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si el total es ≥ 30000, se aplica 15% de descuento.",
+    "commitTimestamp": 1788482697540,
+    "testId": 16
   }
 ]

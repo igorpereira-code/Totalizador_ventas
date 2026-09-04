@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cad92f05de5446fc2541484e50d3f58a5dad5a5e",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T00:43:04.000Z",
       "message": "feat: Si el total es ≥ 10000 y < 30000, se aplica 10% de descuento.",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/cad92f05de5446fc2541484e50d3f58a5dad5a5e"
     },
     "stats": {
       "total": 8,
@@ -300,6 +300,25 @@
     },
     "coverage": 100,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T00:44:56.000Z",
+      "message": "feat: Si el total es ≥ 30000, se aplica 15% de descuento.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }

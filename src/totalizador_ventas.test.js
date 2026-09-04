@@ -66,4 +66,9 @@ describe("Ventas", () => {
   it("Si el total es ≥ 10000 y < 30000, se aplica 10% de descuento antes del impuesto", () => {
     expect(calcularTotal(3000, 4, "CA")).toEqual(11691);
   });
+
+  //Si el total es ≥ 30000, se aplica 15% de descuento.
+  it("Si el total es ≥ 30000, se aplica 15% de descuento antes del impuesto", () => {
+    expect(calcularTotal(8000, 4, "CA")).toEqual(29444);
+  });
 });
