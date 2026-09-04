@@ -119,4 +119,9 @@ describe("Ventas", () => {
   it("Si la categoría es 'Electrónicos', se aplica 4% de impuesto adicional y 1% de descuento adicional", () => {
     expect(calcularTotal(5, 2, "CA", "Electrónicos")).toEqual(11.14975);
   });
+
+  //Si la categoría es 'Vestimenta', se aplica 2% de impuesto adicional.
+  it("Si la categoría es 'Vestimenta', se aplica 2% de impuesto adicional", () => {
+    expect(calcularTotal(5, 2, "CA", "Vestimenta")).toEqual(11.0415);
+  });
 });

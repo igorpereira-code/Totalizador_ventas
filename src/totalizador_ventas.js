@@ -22,6 +22,8 @@ function calcularTotal(cantidad, precio, estado = "CA", categoria = "Varios") {
     total *= 1.03;
   } else if (categoria === "Electrónicos") {
     total = total + total * 0.04 - total * 0.01;
+  } else if (categoria === "Vestimenta") {
+    total *= 1.02;
   }
 
   return total;
