@@ -736,9 +736,39 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bcf43ac681f3f61f74d5f29928aa4acc4cdaf108",
     "commitName": "feat: Si la categoría es 'Varios' (default), no se aplica ningún adicional.",
     "commitTimestamp": 1788563138088,
     "testId": 28
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 21,
+    "numTotalTests": 25,
+    "timestamp": 1788563234913,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 21,
+    "numTotalTests": 25,
+    "timestamp": 1788563280396,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1788563303680,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: Metodo calcular según categoria",
+    "commitTimestamp": 1788563331114,
+    "testId": 29
   }
 ]
