@@ -542,9 +542,31 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cf95563c551d633ad4b78588f12cf71463904e06",
     "commitName": "feat: El usuario elige una categoría de producto de una lista desplegable (con 'Varios' por defecto)",
     "commitTimestamp": 1788561941574,
     "testId": 21
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788562106914,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788562142629,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si la categoría es 'Alimentos', se aplica 2% de descuento adicional.",
+    "commitTimestamp": 1788562171805,
+    "testId": 22
   }
 ]

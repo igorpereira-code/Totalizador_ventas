@@ -12,6 +12,10 @@ function calcularTotal(cantidad, precio, estado = "CA", categoria = "Varios") {
 
   total = calcularImpuesto(total, estado);
 
+  if (categoria === "Alimentos") {
+    total *= 0.98;
+  }
+
   return total;
 }
 

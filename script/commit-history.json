@@ -399,12 +399,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cf95563c551d633ad4b78588f12cf71463904e06",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T22:45:40.000Z",
       "message": "feat: El usuario elige una categoría de producto de una lista desplegable (con 'Varios' por defecto)",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/cf95563c551d633ad4b78588f12cf71463904e06"
     },
     "stats": {
       "total": 7,
@@ -414,6 +414,25 @@
     },
     "coverage": 100,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T22:49:31.000Z",
+      "message": "feat: Si la categoría es 'Alimentos', se aplica 2% de descuento adicional.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }

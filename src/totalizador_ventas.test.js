@@ -89,7 +89,12 @@ describe("Ventas", () => {
   });
 
   //El usuario elige una categoría de producto de una lista desplegable (con 'Varios' por defecto)
-  it("El usuario elige una categoría de producto de una lista desplegable (con 'Varios' por defecto) → se muestra el precio total", () => {
+  it("El usuario elige una categoría de producto  (con 'Varios' por defecto) → se muestra el precio total", () => {
     expect(calcularTotal(5, 2, "CA", "Varios")).toEqual(10.825);
+  });
+
+  //Si la categoría es 'Alimentos', se aplica 2% de descuento adicional (sobre el precio ya descontado por volumen).
+  it("Si la categoría es 'Alimentos', se aplica 2% de descuento adicional (sobre el precio ya descontado por volumen)", () => {
+    expect(calcularTotal(5, 2, "CA", "Alimentos")).toEqual(10.6085);
   });
 });
