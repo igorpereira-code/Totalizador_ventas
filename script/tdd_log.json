@@ -920,9 +920,23 @@
     "testId": 36
   },
   {
-    "commitId": "HEAD",
+    "commitId": "abcdf4da8ddbf496dd498e9469c5417366abddbc",
     "commitName": "feat: Mayor a 200 →  por unidad.",
     "commitTimestamp": 1788564318096,
     "testId": 36
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1788564446282,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: Metodo calcular peso volumetrico",
+    "commitTimestamp": 1788564471297,
+    "testId": 37
   }
 ]

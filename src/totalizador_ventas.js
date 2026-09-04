@@ -1,6 +1,7 @@
 import calcularDescuento from "./calcular_descuento.js";
 import calcularImpuesto from "./calcular_impuesto.js";
 import calcular_categoria from "./calcular_categoria.js";
+import calcularPesoVolumetrico from "./calcular_peso_volumetrico.js";
 
 function calcularTotal(
   cantidad,
@@ -21,19 +22,7 @@ function calcularTotal(
 
   total = calcular_categoria(total, categoria);
 
-  if (pesoVolumetrico >= 11 && pesoVolumetrico <= 20) {
-    total += cantidad * 3.5;
-  } else if (pesoVolumetrico >= 21 && pesoVolumetrico <= 40) {
-    total += cantidad * 5;
-  } else if (pesoVolumetrico >= 41 && pesoVolumetrico <= 80) {
-    total += cantidad * 6;
-  } else if (pesoVolumetrico >= 81 && pesoVolumetrico <= 100) {
-    total += cantidad * 6.5;
-  } else if (pesoVolumetrico >= 101 && pesoVolumetrico <= 200) {
-    total += cantidad * 8;
-  } else if (pesoVolumetrico > 200) {
-    total += cantidad * 9;
-  }
+  total = calcularPesoVolumetrico(total, cantidad, pesoVolumetrico);
 
   return total;
 }
