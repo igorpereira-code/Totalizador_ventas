@@ -570,12 +570,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4a07accb8a7fdb7264b472dc9e81e9d14ba1eac5",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T23:11:03.000Z",
       "message": "feat: El usuario ingresa el peso volumétrico por unidad; si está entre 0 y 10, el costo de envío por unidad es  y se muestra el costo total (cantidad × costo unitario).",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/4a07accb8a7fdb7264b472dc9e81e9d14ba1eac5"
     },
     "stats": {
       "total": 5,
@@ -585,6 +585,25 @@
     },
     "coverage": 100,
     "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T23:15:17.000Z",
+      "message": "feat: Entre 11 y 20 → .5 por unidad.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 16,
+      "deletions": 1,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 27,
     "failed_tests": 0,
     "conclusion": "success"
   }

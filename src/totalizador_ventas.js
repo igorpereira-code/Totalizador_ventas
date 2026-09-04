@@ -2,7 +2,13 @@ import calcularDescuento from "./calcular_descuento.js";
 import calcularImpuesto from "./calcular_impuesto.js";
 import calcular_categoria from "./calcular_categoria.js";
 
-function calcularTotal(cantidad, precio, estado = "CA", categoria = "Varios") {
+function calcularTotal(
+  cantidad,
+  precio,
+  estado = "CA",
+  categoria = "Varios",
+  pesoVolumetrico,
+) {
   if (cantidad <= 0) {
     return "Error: La cantidad de items debe ser mayor que 0";
   } else if (precio < 0 || isNaN(precio)) {
@@ -14,6 +20,10 @@ function calcularTotal(cantidad, precio, estado = "CA", categoria = "Varios") {
   total = calcularImpuesto(total, estado);
 
   total = calcular_categoria(total, categoria);
+
+  if (pesoVolumetrico >= 11 && pesoVolumetrico <= 20) {
+    total += cantidad * 3.5;
+  }
 
   return total;
 }

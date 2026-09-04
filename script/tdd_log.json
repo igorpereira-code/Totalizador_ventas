@@ -780,9 +780,31 @@
     "testId": 30
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4a07accb8a7fdb7264b472dc9e81e9d14ba1eac5",
     "commitName": "feat: El usuario ingresa el peso volumétrico por unidad; si está entre 0 y 10, el costo de envío por unidad es  y se muestra el costo total (cantidad × costo unitario).",
     "commitTimestamp": 1788563463790,
     "testId": 30
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1788563574688,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1788563673426,
+    "success": true,
+    "testId": 31
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Entre 11 y 20 → .5 por unidad.",
+    "commitTimestamp": 1788563718158,
+    "testId": 31
   }
 ]

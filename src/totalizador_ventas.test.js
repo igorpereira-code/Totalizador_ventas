@@ -134,4 +134,9 @@ describe("Ventas", () => {
   it("El usuario ingresa el peso volumétrico por unidad; si está entre 0 y 10, el costo de envío por unidad es $0 y se muestra el costo total", () => {
     expect(calcularTotal(5, 2, "CA", "Varios", 5)).toEqual(10.825);
   });
+
+  //Entre 11 y 20 → $3.5 por unidad.
+  it("Entre 11 y 20 → $3.5 por unidad", () => {
+    expect(calcularTotal(5, 2, "CA", "Varios", 15)).toEqual(28.325);
+  });
 });
