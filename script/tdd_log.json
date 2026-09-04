@@ -802,9 +802,31 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a8431ccef2488a3e853011ebadde83d3eabf8e62",
     "commitName": "feat: Entre 11 y 20 → .5 por unidad.",
     "commitTimestamp": 1788563718158,
     "testId": 31
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1788563790014,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1788563947587,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Entre 21 y 40 →  por unidad.",
+    "commitTimestamp": 1788563961470,
+    "testId": 32
   }
 ]

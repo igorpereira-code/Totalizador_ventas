@@ -139,4 +139,9 @@ describe("Ventas", () => {
   it("Entre 11 y 20 → $3.5 por unidad", () => {
     expect(calcularTotal(5, 2, "CA", "Varios", 15)).toEqual(28.325);
   });
+
+  //Entre 21 y 40 → $5 por unidad.
+  it("Entre 21 y 40 → $5 por unidad", () => {
+    expect(calcularTotal(5, 2, "CA", "Varios", 30)).toEqual(35.825);
+  });
 });
