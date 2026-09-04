@@ -109,4 +109,9 @@ describe("Ventas", () => {
       10.987375,
     );
   });
+
+  //Si la categoría es 'Muebles', se aplica 3% de impuesto adicional.
+  it("Si la categoría es 'Muebles', se aplica 3% de impuesto adicional", () => {
+    expect(calcularTotal(5, 2, "CA", "Muebles")).toEqual(11.14975);
+  });
 });

@@ -640,9 +640,31 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "14f6478a7d2abb0c9399015f0db5a50a7c2922e0",
     "commitName": "feat: Si la categoría es 'Material de escritorio', se aplica 1.5% de descuento adicional.",
     "commitTimestamp": 1788562614221,
     "testId": 24
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1788562664603,
+    "success": false,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788562711329,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si la categoría es 'Muebles', se aplica 3% de impuesto adicional.",
+    "commitTimestamp": 1788562729074,
+    "testId": 25
   }
 ]

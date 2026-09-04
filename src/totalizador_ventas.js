@@ -14,14 +14,12 @@ function calcularTotal(cantidad, precio, estado = "CA", categoria = "Varios") {
 
   if (categoria === "Alimentos") {
     total *= 0.98;
-  }
-
-  if (categoria === "Bebidas alcohólicas") {
+  } else if (categoria === "Bebidas alcohólicas") {
     total *= 1.07;
-  }
-
-  if (categoria === "Material de escritorio") {
+  } else if (categoria === "Material de escritorio") {
     total = total + total * 0.015;
+  } else if (categoria === "Muebles") {
+    total *= 1.03;
   }
 
   return total;
