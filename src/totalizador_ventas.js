@@ -17,6 +17,9 @@ function calcularTotal(cantidad, precio, estado) {
   if (estado === "AL") {
     total += total * 0.04;
   }
+  if (estado === "CA") {
+    total += total * 0.0825;
+  }
   return total;
 }
 

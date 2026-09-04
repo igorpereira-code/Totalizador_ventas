@@ -224,9 +224,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e3381b2b7a53829fe648b33186c3956b3cd42ce9",
     "commitName": "feat: Si el estado es AL, se aplica 4.00% de impuesto.",
     "commitTimestamp": 1788481471190,
     "testId": 8
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1788481528797,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1788481549858,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si el estado es CA, se aplica 8.25% de impuesto.",
+    "commitTimestamp": 1788481569897,
+    "testId": 9
   }
 ]

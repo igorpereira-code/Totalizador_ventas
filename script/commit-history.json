@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e3381b2b7a53829fe648b33186c3956b3cd42ce9",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T00:24:30.000Z",
       "message": "feat: Si el estado es AL, se aplica 4.00% de impuesto.",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/e3381b2b7a53829fe648b33186c3956b3cd42ce9"
     },
     "stats": {
       "total": 8,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T00:26:09.000Z",
+      "message": "feat: Si el estado es CA, se aplica 8.25% de impuesto.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
