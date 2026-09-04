@@ -96,9 +96,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b76b5f954b78a3cb345c26d1e958711a826f2f69",
     "commitName": "feat: El usuario elige el estado de estado en una lista desplegada para evitar errores al introducir los estados",
     "commitTimestamp": 1788480596739,
     "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788480782965,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788480863889,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si el estado es UT, se aplica 6.65% de impuesto sobre el precio total y se muestra el precio con impuesto.",
+    "commitTimestamp": 1788480886228,
+    "testId": 5
   }
 ]

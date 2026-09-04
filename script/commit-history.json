@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b76b5f954b78a3cb345c26d1e958711a826f2f69",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T00:09:55.000Z",
       "message": "feat: El usuario elige el estado de estado en una lista desplegada para evitar errores al introducir los estados",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/b76b5f954b78a3cb345c26d1e958711a826f2f69"
     },
     "stats": {
       "total": 27,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T00:14:45.000Z",
+      "message": "feat: Si el estado es UT, se aplica 6.65% de impuesto sobre el precio total y se muestra el precio con impuesto.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

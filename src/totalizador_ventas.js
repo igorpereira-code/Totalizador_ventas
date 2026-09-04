@@ -4,7 +4,11 @@ function calcularTotal(cantidad, precio, estado) {
   } else if (precio < 0 || isNaN(precio)) {
     return "Error: El precio por item debe ser un número mayor o igual a 0";
   }
-  return cantidad * precio;
+  let total = cantidad * precio;
+  if (estado === "UT") {
+    total += total * 0.0665;
+  }
+  return total;
 }
 
 export default calcularTotal;

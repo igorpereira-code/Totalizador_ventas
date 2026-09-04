@@ -21,4 +21,9 @@ describe("Ventas", () => {
   it("El usuario elige el estado de estado en una lista desplegada → se muestra el precio total", () => {
     expect(calcularTotal(3, 2, "California")).toEqual(6);
   });
+
+  //Si el estado es UT, se aplica 6.65% de impuesto sobre el precio total y se muestra el precio con impuesto.
+  it("Si el estado es UT, se aplica 6.65% de impuesto sobre el precio total y se muestra el precio con impuesto", () => {
+    expect(calcularTotal(5, 2, "UT")).toEqual(10.665);
+  });
 });
