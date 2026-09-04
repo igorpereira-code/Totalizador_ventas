@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e16e723703d2335f77c94b350a929956ffd0f72d",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-03T23:44:59.000Z",
       "message": "feat: Si el precio por item es negativo o no numérico, se muestra un mensaje de error",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/e16e723703d2335f77c94b350a929956ffd0f72d"
     },
     "stats": {
       "total": 13,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T00:09:55.000Z",
+      "message": "feat: El usuario elige el estado de estado en una lista desplegada para evitar errores al introducir los estados",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 27,
+      "additions": 17,
+      "deletions": 10,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -1,3 +1,4 @@
+import calcularTotal from "./totalizador_ventas";
 describe("Ventas", () => {
   it("El usuario ingresa cantidad de items y precio por item → se muestra el precio total ", () => {
     expect(calcularTotal(3, 2)).toEqual(6);
@@ -15,13 +16,9 @@ describe("Ventas", () => {
       "Error: El precio por item debe ser un número mayor o igual a 0",
     );
   });
-});
 
-function calcularTotal(cantidad, precio) {
-  if (cantidad <= 0) {
-    return "Error: La cantidad de items debe ser mayor que 0";
-  } else if (precio < 0 || isNaN(precio)) {
-    return "Error: El precio por item debe ser un número mayor o igual a 0";
-  }
-  return cantidad * precio;
-}
+  //El usuario elige el estado de estado en una lista desplegada para evitar errores al introducir los estados
+  it("El usuario elige el estado de estado en una lista desplegada → se muestra el precio total", () => {
+    expect(calcularTotal(3, 2, "California")).toEqual(6);
+  });
+});

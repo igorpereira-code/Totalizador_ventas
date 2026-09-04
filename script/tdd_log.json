@@ -66,9 +66,39 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e16e723703d2335f77c94b350a929956ffd0f72d",
     "commitName": "feat: Si el precio por item es negativo o no numérico, se muestra un mensaje de error",
     "commitTimestamp": 1788479100558,
     "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788479291611,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788480422776,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788480563433,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: El usuario elige el estado de estado en una lista desplegada para evitar errores al introducir los estados",
+    "commitTimestamp": 1788480596739,
+    "testId": 4
   }
 ]
