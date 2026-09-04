@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b9e921b6a43cc3bbe336518175908dc3a5372fed",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T00:17:24.000Z",
       "message": "feat: Si el estado es NV, se aplica 8.00% de impuesto.",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/b9e921b6a43cc3bbe336518175908dc3a5372fed"
     },
     "stats": {
       "total": 8,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T00:22:54.000Z",
+      "message": "feat: Si el estado es TX, se aplica 6.25% de impuesto.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

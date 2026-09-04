@@ -140,9 +140,63 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b9e921b6a43cc3bbe336518175908dc3a5372fed",
     "commitName": "feat: Si el estado es NV, se aplica 8.00% de impuesto.",
     "commitTimestamp": 1788481044964,
     "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788481121467,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788481202405,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788481207098,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788481220259,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788481239193,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788481260646,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si el estado es TX, se aplica 6.25% de impuesto.",
+    "commitTimestamp": 1788481375687,
+    "testId": 7
   }
 ]
