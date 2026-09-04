@@ -703,12 +703,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "831178c09ef64eceda7722494aa05889eb915177",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T23:27:50.000Z",
       "message": "refactor: Metodo calcular peso volumetrico",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/831178c09ef64eceda7722494aa05889eb915177"
     },
     "stats": {
       "total": 32,
@@ -718,6 +718,25 @@
     },
     "coverage": 100,
     "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T23:32:03.000Z",
+      "message": "feat: si el peso volumétrico es negativo, no numérico o falta, se muestra un mensaje de error.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 33,
     "failed_tests": 0,
     "conclusion": "success"
   }

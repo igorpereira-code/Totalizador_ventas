@@ -22,7 +22,11 @@ function calcularTotal(
 
   total = calcular_categoria(total, categoria);
 
-  total = calcularPesoVolumetrico(total, cantidad, pesoVolumetrico);
+  if (pesoVolumetrico < 0) {
+    return "Error: El peso volumétrico debe ser un número mayor o igual a 0";
+  } else {
+    total = calcularPesoVolumetrico(total, cantidad, pesoVolumetrico);
+  }
 
   return total;
 }

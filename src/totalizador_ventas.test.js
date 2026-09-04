@@ -164,4 +164,11 @@ describe("Ventas", () => {
   it("Mayor a 200 → $9 por unidad", () => {
     expect(calcularTotal(5, 2, "CA", "Varios", 250)).toEqual(55.825);
   });
+
+  //si el peso volumétrico es negativo, no numérico o falta, se muestra un mensaje de error.
+  it("Si el peso volumétrico es negativo, no numérico o falta, se muestra un mensaje de error", () => {
+    expect(calcularTotal(5, 2, "CA", "Varios", -5)).toEqual(
+      "Error: El peso volumétrico debe ser un número mayor o igual a 0",
+    );
+  });
 });

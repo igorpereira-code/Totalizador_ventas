@@ -934,9 +934,47 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "831178c09ef64eceda7722494aa05889eb915177",
     "commitName": "refactor: Metodo calcular peso volumetrico",
     "commitTimestamp": 1788564471297,
     "testId": 37
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 1,
+    "numTotalTests": 33,
+    "timestamp": 1788564544192,
+    "success": false,
+    "testId": 38
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 21,
+    "numTotalTests": 33,
+    "timestamp": 1788564653024,
+    "success": false,
+    "testId": 38
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 21,
+    "numTotalTests": 33,
+    "timestamp": 1788564678923,
+    "success": false,
+    "testId": 38
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1788564710286,
+    "success": true,
+    "testId": 38
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: si el peso volumétrico es negativo, no numérico o falta, se muestra un mensaje de error.",
+    "commitTimestamp": 1788564724524,
+    "testId": 38
   }
 ]
