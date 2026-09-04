@@ -28,7 +28,7 @@ Descuento por volumen
 
 - Parte 4
 Final
-16. Cálculo end-to-end: subtotal → aplicar descuento → aplicar impuesto sobre el monto ya descontado → mostrar precio final, replicando el ejemplo del enunciado (con imagen) para verificar que coincide.
+16. Cálculo end-to-end: subtotal → aplicar descuento → aplicar impuesto sobre el monto ya descontado → mostrar precio final, replicando el ejemplo del enunciado (con imagen) para verificar que coincide.✅
 17. El resultado se muestra con formato moneda (2 decimales) mostrando el desglose completo: subtotal, % y monto de descuento, % y monto de impuesto, total final.
 
 

@@ -6,10 +6,21 @@
   <body>
     <h1>Totalizador de Ventas</h1>
     <form id="Totalizador-form">
-      <label for="primer-numero">Cantidad de items:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Precio por item:</label>
-      <input type="number" id="segundo-numero" />
+      <label for="cantidad-items">Cantidad de items:</label>
+      <input type="number" id="cantidad-items" />
+
+      <label for="precio-item">Precio por item:</label>
+      <input type="number" id="precio-item" step="0.01" />
+
+      <label for="estado-select">Código de estado:</label>
+      <select id="estado-select">
+        <option value="UT">UT</option>
+        <option value="NV">NV</option>
+        <option value="TX">TX</option>
+        <option value="AL">AL</option>
+        <option value="CA">CA</option>
+      </select>
+
       <input type="submit" value="Calcular Total" id="calcular-total-button" />
     </form>
     <div id="resultado-div"></div>

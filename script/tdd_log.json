@@ -492,9 +492,15 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e12ecbcceb4fa978012bc0794d6813b2e0f07295",
     "commitName": "feat: Cálculo end-to-end: subtotal → aplicar descuento → aplicar impuesto sobre el monto ya descontado → mostrar precio final",
     "commitTimestamp": 1788494931887,
     "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Modificando index.html, y presenter.js",
+    "commitTimestamp": 1788495384827,
+    "testId": 19
   }
 ]
