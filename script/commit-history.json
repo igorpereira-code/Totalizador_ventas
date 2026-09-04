@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "951e578efc2a5ac61d77881cc676be793b708677",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T00:22:54.000Z",
       "message": "feat: Si el estado es TX, se aplica 6.25% de impuesto.",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/951e578efc2a5ac61d77881cc676be793b708677"
     },
     "stats": {
       "total": 8,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T00:24:30.000Z",
+      "message": "feat: Si el estado es AL, se aplica 4.00% de impuesto.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -194,9 +194,39 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "951e578efc2a5ac61d77881cc676be793b708677",
     "commitName": "feat: Si el estado es TX, se aplica 6.25% de impuesto.",
     "commitTimestamp": 1788481375687,
     "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788481419536,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1788481427765,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1788481449025,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si el estado es AL, se aplica 4.00% de impuesto.",
+    "commitTimestamp": 1788481471190,
+    "testId": 8
   }
 ]

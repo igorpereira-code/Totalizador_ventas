@@ -36,4 +36,9 @@ describe("Ventas", () => {
   it("Si el estado es TX, se aplica 6.25% de impuesto sobre el precio total y se muestra el precio con impuesto", () => {
     expect(calcularTotal(5, 2, "TX")).toEqual(10.625);
   });
+
+  // Si el estado es AL, se aplica 4.00% de impuesto.
+  it("Si el estado es AL, se aplica 4.00% de impuesto sobre el precio total y se muestra el precio con impuesto", () => {
+    expect(calcularTotal(5, 2, "AL")).toEqual(10.4);
+  });
 });
