@@ -176,4 +176,11 @@ describe("Ventas", () => {
   it("El usuario elige tipo de cliente de una lista ('Normal' por defecto); por ahora solo se captura, sin afectar el cálculo", () => {
     expect(calcularTotal(5, 2, "CA", "Varios", 5, "Normal")).toEqual(10.825);
   });
+
+  //Si el cliente es 'Recurrente', se aplica 0.5% de descuento sobre el costo de envío.
+  it("Si el cliente es 'Recurrente', se aplica 0.5% de descuento sobre el costo de envío", () => {
+    expect(calcularTotal(5, 2, "CA", "Varios", 20, "Recurrente")).toEqual(
+      28.2375,
+    );
+  });
 });

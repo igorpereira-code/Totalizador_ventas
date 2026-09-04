@@ -741,12 +741,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9ce20d990f99b1239d3db4257a13092fd6079a60",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T23:33:32.000Z",
       "message": "feat: El usuario elige tipo de cliente de una lista ('Normal' por defecto); por ahora solo se captura, sin afectar el cálculo.",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/9ce20d990f99b1239d3db4257a13092fd6079a60"
     },
     "stats": {
       "total": 6,
@@ -756,6 +756,25 @@
     },
     "coverage": 100,
     "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T23:59:53.000Z",
+      "message": "feat: Si el cliente es 'Recurrente', se aplica 0.5% de descuento sobre el costo de envío. Refactor: matodos calcular_peso volumetrico y calcular tipo cliente",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 41,
+      "additions": 29,
+      "deletions": 12,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 35,
     "failed_tests": 0,
     "conclusion": "success"
   }

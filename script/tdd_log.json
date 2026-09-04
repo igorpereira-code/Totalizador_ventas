@@ -986,9 +986,55 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9ce20d990f99b1239d3db4257a13092fd6079a60",
     "commitName": "feat: El usuario elige tipo de cliente de una lista ('Normal' por defecto); por ahora solo se captura, sin afectar el cálculo.",
     "commitTimestamp": 1788564812974,
     "testId": 39
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1788564983255,
+    "success": false,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1788565169167,
+    "success": false,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 30,
+    "numTotalTests": 35,
+    "timestamp": 1788565576903,
+    "success": false,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 7,
+    "numTotalTests": 35,
+    "timestamp": 1788565960219,
+    "success": false,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1788566338297,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si el cliente es 'Recurrente', se aplica 0.5% de descuento sobre el costo de envío. Refactor: matodos calcular_peso volumetrico y calcular tipo cliente",
+    "commitTimestamp": 1788566394867,
+    "testId": 40
   }
 ]

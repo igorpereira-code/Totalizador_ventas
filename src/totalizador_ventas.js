@@ -2,6 +2,7 @@ import calcularDescuento from "./calcular_descuento.js";
 import calcularImpuesto from "./calcular_impuesto.js";
 import calcular_categoria from "./calcular_categoria.js";
 import calcularPesoVolumetrico from "./calcular_peso_volumetrico.js";
+import calcularTipoCliente from "./calcular_tipo_cliente.js";
 
 function calcularTotal(
   cantidad,
@@ -18,16 +19,17 @@ function calcularTotal(
   }
   let total = cantidad * precio;
   total = calcularDescuento(total);
-
   total = calcularImpuesto(total, estado);
-
   total = calcular_categoria(total, categoria);
 
   if (pesoVolumetrico < 0) {
     return "Error: El peso volumétrico debe ser un número mayor o igual a 0";
-  } else {
-    total = calcularPesoVolumetrico(total, cantidad, pesoVolumetrico);
   }
+
+  const costoEnvio = calcularPesoVolumetrico(cantidad, pesoVolumetrico);
+  const costoEnvioConDescuento = calcularTipoCliente(costoEnvio, tipoCliente);
+
+  total = total + costoEnvioConDescuento;
 
   return total;
 }
