@@ -475,12 +475,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "955eb7af86a503de92ca2b2ef32c0f3ce4860c46",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T22:58:48.000Z",
       "message": "feat: Si la categoría es 'Muebles', se aplica 3% de impuesto adicional.",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/955eb7af86a503de92ca2b2ef32c0f3ce4860c46"
     },
     "stats": {
       "total": 15,
@@ -490,6 +490,25 @@
     },
     "coverage": 100,
     "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T23:01:38.000Z",
+      "message": "feat: Si la categoría es 'Electrónicos', se aplica 4% de impuesto adicional y 1% de descuento adicional.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }

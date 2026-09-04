@@ -20,6 +20,8 @@ function calcularTotal(cantidad, precio, estado = "CA", categoria = "Varios") {
     total = total + total * 0.015;
   } else if (categoria === "Muebles") {
     total *= 1.03;
+  } else if (categoria === "Electrónicos") {
+    total = total + total * 0.04 - total * 0.01;
   }
 
   return total;

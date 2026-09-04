@@ -662,9 +662,39 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "955eb7af86a503de92ca2b2ef32c0f3ce4860c46",
     "commitName": "feat: Si la categoría es 'Muebles', se aplica 3% de impuesto adicional.",
     "commitTimestamp": 1788562729074,
     "testId": 25
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1788562815734,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1788562870253,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1788562883373,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si la categoría es 'Electrónicos', se aplica 4% de impuesto adicional y 1% de descuento adicional.",
+    "commitTimestamp": 1788562898794,
+    "testId": 26
   }
 ]
