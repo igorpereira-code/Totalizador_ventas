@@ -20,6 +20,7 @@ function calcularTotal(cantidad, precio, estado) {
   if (estado === "CA") {
     total += total * 0.0825;
   }
+
   return total;
 }
 
