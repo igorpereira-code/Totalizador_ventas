@@ -1,40 +1,5 @@
-function calcularImpuesto(total, estado) {
-  if (estado === "UT") {
-    total += total * 0.0665;
-  }
-  if (estado === "NV") {
-    total += total * 0.08;
-  }
-  if (estado === "TX") {
-    total += total * 0.0625;
-  }
-  if (estado === "AL") {
-    total += total * 0.04;
-  }
-  if (estado === "CA") {
-    total += total * 0.0825;
-  }
-  return total;
-}
-
-function calcularDescuento(total) {
-  if (total >= 1000 && total < 3000) {
-    total -= total * 0.03;
-  }
-  if (total >= 3000 && total < 7000) {
-    total -= total * 0.05;
-  }
-  if (total >= 7000 && total < 10000) {
-    total -= total * 0.07;
-  }
-  if (total >= 10000 && total < 30000) {
-    total -= total * 0.1;
-  }
-  if (total >= 30000) {
-    total -= total * 0.15;
-  }
-  return total;
-}
+import calcularDescuento from "./calcular_descuento.js";
+import calcularImpuesto from "./calcular_impuesto.js";
 
 function calcularTotal(cantidad, precio, estado) {
   if (cantidad <= 0) {

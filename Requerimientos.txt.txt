@@ -4,30 +4,32 @@ Ingreso de datos
 
 1. El usuario ingresa cantidad de items y precio por item → se muestra el precio total (cantidad × precio). ✅
 2. Si la cantidad de items es 0 o negativa, se muestra un mensaje de error y no se calcula el total.✅
-3. Si el precio por item es negativo o no numérico, se muestra un mensaje de error.
-4. El usuario elige el estado de estado en una lista desplegada para evitar errores al introducir los estados
+3. Si el precio por item es negativo o no numérico, se muestra un mensaje de error.✅
+4. El usuario elige el estado de estado en una lista desplegada para evitar errores al introducir los estados✅
 
 - Parte 2
 
 Impuesto por estado
-5. Si el estado es UT, se aplica 6.65% de impuesto sobre el precio total y se muestra el precio con impuesto.
-6. Si el estado es NV, se aplica 8.00% de impuesto.
-7. Si el estado es TX, se aplica 6.25% de impuesto.
-8. Si el estado es AL, se aplica 4.00% de impuesto.
-9. Si el estado es CA, se aplica 8.25% de impuesto.
-10. Refactor/generalización: la tasa de impuesto se obtiene de una tabla de estados en vez de if/else repetidos (mismo resultado demostrable, pero ahora es fácil agregar un estado nuevo).
+5. Si el estado es UT, se aplica 6.65% de impuesto sobre el precio total y se muestra el precio con impuesto.✅
+6. Si el estado es NV, se aplica 8.00% de impuesto.✅
+7. Si el estado es TX, se aplica 6.25% de impuesto.✅
+8. Si el estado es AL, se aplica 4.00% de impuesto.✅
+9. Si el estado es CA, se aplica 8.25% de impuesto.✅
+10. Refactorizacion de totalizador_ventas✅
 
 - Parte 3
 
 Descuento por volumen 
-11. Si el total es ≥ 1000 y < 3000, se aplica 3% de descuento antes del impuesto.
-12. Si el total es ≥ 3000 y < 7000, se aplica 5% de descuento.
-13. Si el total es ≥ 7000 y < 10000, se aplica 7% de descuento.
-14. Si el total es ≥ 10000 y < 30000, se aplica 10% de descuento.
-15. Si el total es ≥ 30000, se aplica 15% de descuento.
+11. Si el total es ≥ 1000 y < 3000, se aplica 3% de descuento antes del impuesto.✅
+12. Si el total es ≥ 3000 y < 7000, se aplica 5% de descuento.✅
+13. Si el total es ≥ 7000 y < 10000, se aplica 7% de descuento.✅
+14. Si el total es ≥ 10000 y < 30000, se aplica 10% de descuento.✅
+15. Si el total es ≥ 30000, se aplica 15% de descuento.✅
 
 - Parte 4
 Final
 16. Cálculo end-to-end: subtotal → aplicar descuento → aplicar impuesto sobre el monto ya descontado → mostrar precio final, replicando el ejemplo del enunciado (con imagen) para verificar que coincide.
 17. El resultado se muestra con formato moneda (2 decimales) mostrando el desglose completo: subtotal, % y monto de descuento, % y monto de impuesto, total final.
+
+
 

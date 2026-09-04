@@ -1,4 +1,5 @@
 import calcularTotal from "./totalizador_ventas";
+import calcularDesglose from "./desglose";
 describe("Ventas", () => {
   it("El usuario ingresa cantidad de items y precio por item → se muestra el precio total ", () => {
     expect(calcularTotal(3, 2)).toEqual(6);
@@ -70,5 +71,15 @@ describe("Ventas", () => {
   //Si el total es ≥ 30000, se aplica 15% de descuento.
   it("Si el total es ≥ 30000, se aplica 15% de descuento antes del impuesto", () => {
     expect(calcularTotal(8000, 4, "CA")).toEqual(29444);
+  });
+
+  //Cálculo end-to-end: subtotal → aplicar descuento → aplicar impuesto sobre el monto ya descontado → mostrar precio final
+  it("Ejemplo del enunciado: desglose completo (precio neto, descuento, impuesto, total)", () => {
+    expect(calcularDesglose(20, 3, "TX")).toEqual({
+      precioNeto: 60,
+      descuento: 0,
+      impuesto: 3.75,
+      precioTotal: 63.75,
+    });
   });
 });

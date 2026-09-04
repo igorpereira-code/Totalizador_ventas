@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8d33ea01dbb17474db335b8c41319a98d6d5a9f6",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T00:48:38.000Z",
       "message": "refactor: Refactorizacion, funcion calcular descuento",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/8d33ea01dbb17474db335b8c41319a98d6d5a9f6"
     },
     "stats": {
       "total": 20,
@@ -338,6 +338,25 @@
     },
     "coverage": 100,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T04:08:50.000Z",
+      "message": "feat: Cálculo end-to-end: subtotal → aplicar descuento → aplicar impuesto sobre el monto ya descontado → mostrar precio final",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 138,
+      "additions": 88,
+      "deletions": 50,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }
