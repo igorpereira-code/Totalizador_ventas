@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ecfe441b45ec2d9d2cc818ea63ab5358f014a4c6",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T23:03:29.000Z",
       "message": "feat: Si la categoría es 'Vestimenta', se aplica 2% de impuesto adicional.",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/ecfe441b45ec2d9d2cc818ea63ab5358f014a4c6"
     },
     "stats": {
       "total": 7,
@@ -528,6 +528,25 @@
     },
     "coverage": 100,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T23:05:37.000Z",
+      "message": "feat: Si la categoría es 'Varios' (default), no se aplica ningún adicional.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 13,
+      "deletions": 9,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 25,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -714,9 +714,31 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ecfe441b45ec2d9d2cc818ea63ab5358f014a4c6",
     "commitName": "feat: Si la categoría es 'Vestimenta', se aplica 2% de impuesto adicional.",
     "commitTimestamp": 1788563010561,
     "testId": 27
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1788563061219,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1788563078374,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si la categoría es 'Varios' (default), no se aplica ningún adicional.",
+    "commitTimestamp": 1788563138088,
+    "testId": 28
   }
 ]

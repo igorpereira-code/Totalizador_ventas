@@ -124,4 +124,9 @@ describe("Ventas", () => {
   it("Si la categoría es 'Vestimenta', se aplica 2% de impuesto adicional", () => {
     expect(calcularTotal(5, 2, "CA", "Vestimenta")).toEqual(11.0415);
   });
+
+  //Si la categoría es 'Varios' (default), no se aplica ningún adicional.
+  it("Si la categoría es 'Varios' (default), no se aplica ningún adicional", () => {
+    expect(calcularTotal(5, 2, "CA", "Varios")).toEqual(10.825);
+  });
 });
