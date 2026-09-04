@@ -30,6 +30,9 @@ function calcularTotal(cantidad, precio, estado) {
   if (total >= 3000 && total < 7000) {
     total -= total * 0.05;
   }
+  if (total >= 7000 && total < 10000) {
+    total -= total * 0.07;
+  }
   total = calcularImpuesto(total, estado);
 
   return total;
