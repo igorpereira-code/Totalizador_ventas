@@ -528,9 +528,23 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2e17859ddbd2b3c15f016437108e1c54b934d245",
     "commitName": "feat: Si el usuario no selecciona ningún estado, se usa California (CA) por defecto.",
     "commitTimestamp": 1788561780201,
     "testId": 20
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788561869804,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: El usuario elige una categoría de producto de una lista desplegable (con 'Varios' por defecto)",
+    "commitTimestamp": 1788561941574,
+    "testId": 21
   }
 ]

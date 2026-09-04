@@ -87,4 +87,9 @@ describe("Ventas", () => {
   it("Si el usuario no selecciona ningún estado, se usa California (CA) por defecto", () => {
     expect(calcularTotal(5, 2)).toEqual(10.825);
   });
+
+  //El usuario elige una categoría de producto de una lista desplegable (con 'Varios' por defecto)
+  it("El usuario elige una categoría de producto de una lista desplegable (con 'Varios' por defecto) → se muestra el precio total", () => {
+    expect(calcularTotal(5, 2, "CA", "Varios")).toEqual(10.825);
+  });
 });
