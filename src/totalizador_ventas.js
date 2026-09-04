@@ -25,6 +25,8 @@ function calcularTotal(
     total += cantidad * 3.5;
   } else if (pesoVolumetrico >= 21 && pesoVolumetrico <= 40) {
     total += cantidad * 5;
+  } else if (pesoVolumetrico >= 41 && pesoVolumetrico <= 80) {
+    total += cantidad * 6;
   }
 
   return total;

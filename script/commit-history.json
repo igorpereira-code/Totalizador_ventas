@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "473d822b14a5b10018cb81e4a12a4126d97e2e3e",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T23:19:20.000Z",
       "message": "feat: Entre 21 y 40 →  por unidad.",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/473d822b14a5b10018cb81e4a12a4126d97e2e3e"
     },
     "stats": {
       "total": 7,
@@ -623,6 +623,25 @@
     },
     "coverage": 100,
     "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T23:21:05.000Z",
+      "message": "feat: Entre 41 y 80 →  por unidad.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 29,
     "failed_tests": 0,
     "conclusion": "success"
   }
