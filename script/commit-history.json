@@ -190,17 +190,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "16dad5e5f66cd2dd1be7ee96587241c36a3f438f",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T00:30:18.000Z",
       "message": "feat: Si el estado es CA, se aplica 8.25% de impuesto.",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/16dad5e5f66cd2dd1be7ee96587241c36a3f438f"
     },
     "stats": {
       "total": 1,
       "additions": 1,
       "deletions": 0,
+      "date": "2026-09-04"
+    },
+    "coverage": 100,
+    "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-04T00:32:22.000Z",
+      "message": "refactor: funcion calcularImpuesto",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 12,
+      "deletions": 7,
       "date": "2026-09-04"
     },
     "coverage": 100,

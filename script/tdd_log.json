@@ -268,9 +268,23 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "16dad5e5f66cd2dd1be7ee96587241c36a3f438f",
     "commitName": "feat: Si el estado es CA, se aplica 8.25% de impuesto.",
     "commitTimestamp": 1788481819434,
     "testId": 10
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1788481877348,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: funcion calcularImpuesto",
+    "commitTimestamp": 1788481943114,
+    "testId": 11
   }
 ]
