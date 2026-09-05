@@ -1122,9 +1122,39 @@
     "testId": 43
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fdfe744087509b6a71b5cbecd29831724d51fdc8",
     "commitName": "feat: Si el cliente es 'Recurrente', el precio neto de la orden es mayor a  y la categoría es 'Alimentos', se aplica un descuento fijo adicional de .",
     "commitTimestamp": 1788567255798,
     "testId": 43
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 1,
+    "numTotalTests": 39,
+    "timestamp": 1788567561027,
+    "success": false,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 1,
+    "numTotalTests": 39,
+    "timestamp": 1788567662417,
+    "success": false,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1788567730295,
+    "success": true,
+    "testId": 44
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si el cliente es 'Especial', el precio neto es mayor a  y la categoría es 'Electrónicos', se aplica un descuento fijo adicional de .",
+    "commitTimestamp": 1788567752624,
+    "testId": 44
   }
 ]

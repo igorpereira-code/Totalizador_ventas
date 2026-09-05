@@ -204,4 +204,11 @@ describe("Ventas", () => {
       7413.73,
     );
   });
+
+  //Si el cliente es 'Especial', el precio neto es mayor a $7000 y la categoría es 'Electrónicos', se aplica un descuento fijo adicional de $200.
+  it("Si el cliente es 'Especial', el precio neto es mayor a $7000 y la categoría es 'Electrónicos', se aplica un descuento fijo adicional de $200", () => {
+    expect(
+      calcularTotal(2000, 4, "CA", "Electrónicos", 20, "Especial"),
+    ).toEqual(14990.414);
+  });
 });

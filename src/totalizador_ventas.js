@@ -38,6 +38,13 @@ function calcularTotal(
     precioNeto > 3000
   ) {
     total = total - 100;
+  } else if (
+    tipoCliente === "Especial" &&
+    categoria === "Electrónicos" &&
+    precioNeto > 7000
+  ) {
+    total = total - 200;
+    total = parseFloat(total.toFixed(3));
   }
 
   return total;
