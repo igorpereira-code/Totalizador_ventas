@@ -1092,9 +1092,39 @@
     "testId": 42
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1de06acfff012363932f0ffecf931b7596e7f54d",
     "commitName": "feat: Si es 'Especial', 1.5% de descuento sobre el costo de envío.",
     "commitTimestamp": 1788566689538,
     "testId": 42
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 1,
+    "numTotalTests": 38,
+    "timestamp": 1788566880963,
+    "success": false,
+    "testId": 43
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1788566986713,
+    "success": true,
+    "testId": 43
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1788567188200,
+    "success": true,
+    "testId": 43
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si el cliente es 'Recurrente', el precio neto de la orden es mayor a  y la categoría es 'Alimentos', se aplica un descuento fijo adicional de .",
+    "commitTimestamp": 1788567255798,
+    "testId": 43
   }
 ]

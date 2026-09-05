@@ -17,7 +17,8 @@ function calcularTotal(
   } else if (precio < 0 || isNaN(precio)) {
     return "Error: El precio por item debe ser un número mayor o igual a 0";
   }
-  let total = cantidad * precio;
+  let precioNeto = cantidad * precio;
+  let total = precioNeto;
   total = calcularDescuento(total);
   total = calcularImpuesto(total, estado);
   total = calcular_categoria(total, categoria);
@@ -30,6 +31,14 @@ function calcularTotal(
   const costoEnvioConDescuento = calcularTipoCliente(costoEnvio, tipoCliente);
 
   total = total + costoEnvioConDescuento;
+
+  if (
+    tipoCliente === "Recurrente" &&
+    categoria === "Alimentos" &&
+    precioNeto > 3000
+  ) {
+    total = total - 100;
+  }
 
   return total;
 }

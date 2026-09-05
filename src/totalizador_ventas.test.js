@@ -197,4 +197,11 @@ describe("Ventas", () => {
       28.0625,
     );
   });
+
+  //Si el cliente es 'Recurrente', el precio neto de la orden es mayor a $3000 y la categoría es 'Alimentos', se aplica un descuento fijo adicional de $100.
+  it("Si el cliente es 'Recurrente', el precio neto de la orden es mayor a $3000 y la categoría es 'Alimentos', se aplica un descuento fijo adicional de $100", () => {
+    expect(calcularTotal(1000, 4, "CA", "Alimentos", 20, "Recurrente")).toEqual(
+      7413.73,
+    );
+  });
 });
