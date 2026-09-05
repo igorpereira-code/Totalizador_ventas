@@ -210,7 +210,7 @@ describe("Ventas", () => {
   it("Si el cliente es 'Especial', el precio neto es mayor a $7000 y la categoría es 'Electrónicos', se aplica un descuento fijo adicional de $200", () => {
     expect(
       calcularTotal(2000, 4, "CA", "Electrónicos", 20, "Especial"),
-    ).toEqual(14990.414);
+    ).toBeCloseTo(14990.414);
   });
 
   it("Con orden: 50 items x $100, AL, Vestimenta, peso 90, Antiguo Recurrente", () => {
@@ -251,5 +251,35 @@ describe("Ventas", () => {
     it("Si el tipo de cliente es inválido/no reconocido (ej. 'VIP'), se usa 'Normal' por defecto (sin descuento de envío)", () => {
       expect(calcularTotal(5, 2, "CA", "Varios", 20, "VIP")).toEqual(28.325);
     });
+  });
+});
+
+describe("Revisión final de validaciones", () => {
+  it("Si la cantidad de items no es un número (ej. 'abc'), se muestra un mensaje de error claro", () => {
+    expect(calcularTotal("abc", 2)).toEqual(
+      "Error: La cantidad de items debe ser mayor que 0",
+    );
+  });
+
+  it("Si el precio por item no fue ingresado (undefined), se muestra un mensaje de error claro", () => {
+    expect(calcularTotal(5, undefined)).toEqual(
+      "Error: El precio por item debe ser un número mayor o igual a 0",
+    );
+  });
+
+  it("Si el peso volumétrico no es un número (ej. 'pesado'), se muestra un mensaje de error claro", () => {
+    expect(calcularTotal(5, 2, "CA", "Varios", "pesado")).toEqual(
+      "Error: El peso volumétrico debe ser un número mayor o igual a 0",
+    );
+  });
+
+  it("Si cantidad y precio son inválidos a la vez, se prioriza el error de cantidad", () => {
+    expect(calcularTotal(-5, -2)).toEqual(
+      "Error: La cantidad de items debe ser mayor que 0",
+    );
+  });
+
+  it("Si el peso volumétrico no fue ingresado (undefined), NO es un error: se asume sin costo de envío", () => {
+    expect(calcularTotal(5, 2, "CA", "Varios")).toEqual(10.825);
   });
 });

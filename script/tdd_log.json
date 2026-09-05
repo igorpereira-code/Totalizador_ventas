@@ -1236,9 +1236,39 @@
     "testId": 46
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a9c9d71727f07b0bad703e39f3ec85cb3b35b8f6",
     "commitName": "feat: Validación: si falta o es inválida la categoría/cliente/estado, se usa el valor por defecto correspondiente en vez de fallar.",
     "commitTimestamp": 1788569361934,
     "testId": 46
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 2,
+    "numTotalTests": 49,
+    "timestamp": 1788569527733,
+    "success": false,
+    "testId": 47
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 1,
+    "numTotalTests": 49,
+    "timestamp": 1788569660525,
+    "success": false,
+    "testId": 47
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 0,
+    "numTotalTests": 49,
+    "timestamp": 1788569715350,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: Revisión final de validaciones: cantidad, precio, peso volumétrico y combinaciones inválidas quedan todas cubiertas con mensajes de error claros.",
+    "commitTimestamp": 1788569739642,
+    "testId": 47
   }
 ]

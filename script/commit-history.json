@@ -874,12 +874,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a9c9d71727f07b0bad703e39f3ec85cb3b35b8f6",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-05T00:49:20.000Z",
       "message": "feat: Validación: si falta o es inválida la categoría/cliente/estado, se usa el valor por defecto correspondiente en vez de fallar.",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/a9c9d71727f07b0bad703e39f3ec85cb3b35b8f6"
     },
     "stats": {
       "total": 20,
@@ -889,6 +889,25 @@
     },
     "coverage": 93.33,
     "test_count": 44,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-05T00:55:38.000Z",
+      "message": "refactor: Revisión final de validaciones: cantidad, precio, peso volumétrico y combinaciones inválidas quedan todas cubiertas con mensajes de error claros.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 43,
+      "additions": 39,
+      "deletions": 4,
+      "date": "2026-09-05"
+    },
+    "coverage": 93.28,
+    "test_count": 49,
     "failed_tests": 0,
     "conclusion": "success"
   }

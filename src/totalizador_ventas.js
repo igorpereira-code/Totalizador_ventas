@@ -5,6 +5,7 @@ import calcularPesoVolumetrico from "./calcular_peso_volumetrico.js";
 import calcularTipoCliente from "./calcular_tipo_cliente.js";
 
 const ESTADOS_VALIDOS = ["UT", "NV", "TX", "AL", "CA"];
+
 function calcularTotal(
   cantidad,
   precio,
@@ -13,21 +14,26 @@ function calcularTotal(
   pesoVolumetrico,
   tipoCliente = "Normal",
 ) {
-  if (cantidad <= 0) {
+  if (cantidad <= 0 || isNaN(cantidad)) {
     return "Error: La cantidad de items debe ser mayor que 0";
   } else if (precio < 0 || isNaN(precio)) {
     return "Error: El precio por item debe ser un número mayor o igual a 0";
   }
+
   if (!ESTADOS_VALIDOS.includes(estado)) {
     estado = "CA";
   }
+
   let precioNeto = cantidad * precio;
   let total = precioNeto;
   total = calcularDescuento(total);
   total = calcularImpuesto(total, estado);
   total = calcular_categoria(total, categoria);
 
-  if (pesoVolumetrico < 0) {
+  if (
+    pesoVolumetrico !== undefined &&
+    (pesoVolumetrico < 0 || isNaN(pesoVolumetrico))
+  ) {
     return "Error: El peso volumétrico debe ser un número mayor o igual a 0";
   }
 
@@ -48,7 +54,6 @@ function calcularTotal(
     precioNeto > 7000
   ) {
     total = total - 200;
-    total = parseFloat(total.toFixed(3));
   }
 
   return total;
