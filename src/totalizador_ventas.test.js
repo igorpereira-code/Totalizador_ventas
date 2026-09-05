@@ -21,7 +21,7 @@ describe("Ventas", () => {
 
   //El usuario elige el estado de estado en una lista desplegada para evitar errores al introducir los estados
   it("El usuario elige el estado de estado en una lista desplegada → se muestra el precio total", () => {
-    expect(calcularTotal(3, 2, "California")).toEqual(6);
+    expect(calcularTotal(3, 2, "CA")).toEqual(6.495);
   });
 
   //Si el estado es UT, se aplica 6.65% de impuesto sobre el precio total y se muestra el precio con impuesto.
@@ -236,6 +236,20 @@ describe("Ventas", () => {
       costoEnvio: 325,
       descuentoEnvioPorCliente: 3.25,
       precioTotal: 5360.55,
+    });
+  });
+
+  describe("Validación: valores inválidos usan el default en vez de fallar", () => {
+    it("Si el estado es inválido/no reconocido (ej. 'ZZ'), se usa California (CA) por defecto", () => {
+      expect(calcularTotal(5, 2, "ZZ")).toEqual(10.825);
+    });
+
+    it("Si la categoría es inválida/no reconocida (ej. 'Juguetes'), se usa 'Varios' por defecto (sin ajuste)", () => {
+      expect(calcularTotal(5, 2, "CA", "Juguetes")).toEqual(10.825);
+    });
+
+    it("Si el tipo de cliente es inválido/no reconocido (ej. 'VIP'), se usa 'Normal' por defecto (sin descuento de envío)", () => {
+      expect(calcularTotal(5, 2, "CA", "Varios", 20, "VIP")).toEqual(28.325);
     });
   });
 });

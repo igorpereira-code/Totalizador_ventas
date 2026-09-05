@@ -1190,9 +1190,55 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "03ac9e33814a94ed689cf7b27deac695ea4b7485",
     "commitName": "feat: Se muestra al usuario el detalle completo de todos los valores considerados: cantidad, precio unitario, estado, categoría, tipo de cliente, descuento por volumen, ajuste por categoría, descuento fijo aplicado (si corresponde), impuesto por estado, ajuste de impuesto por categoría, costo de envío, descuento de envío por cliente, y precio total.",
     "commitTimestamp": 1788568951258,
     "testId": 45
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 1,
+    "numTotalTests": 44,
+    "timestamp": 1788569073818,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 1,
+    "numTotalTests": 44,
+    "timestamp": 1788569122099,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 1,
+    "numTotalTests": 44,
+    "timestamp": 1788569213484,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 1,
+    "numTotalTests": 44,
+    "timestamp": 1788569248783,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 0,
+    "numTotalTests": 44,
+    "timestamp": 1788569338863,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Validación: si falta o es inválida la categoría/cliente/estado, se usa el valor por defecto correspondiente en vez de fallar.",
+    "commitTimestamp": 1788569361934,
+    "testId": 46
   }
 ]

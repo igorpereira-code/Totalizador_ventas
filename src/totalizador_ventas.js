@@ -4,6 +4,7 @@ import calcular_categoria from "./calcular_categoria.js";
 import calcularPesoVolumetrico from "./calcular_peso_volumetrico.js";
 import calcularTipoCliente from "./calcular_tipo_cliente.js";
 
+const ESTADOS_VALIDOS = ["UT", "NV", "TX", "AL", "CA"];
 function calcularTotal(
   cantidad,
   precio,
@@ -16,6 +17,9 @@ function calcularTotal(
     return "Error: La cantidad de items debe ser mayor que 0";
   } else if (precio < 0 || isNaN(precio)) {
     return "Error: El precio por item debe ser un número mayor o igual a 0";
+  }
+  if (!ESTADOS_VALIDOS.includes(estado)) {
+    estado = "CA";
   }
   let precioNeto = cantidad * precio;
   let total = precioNeto;
