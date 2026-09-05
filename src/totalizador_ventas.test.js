@@ -190,4 +190,11 @@ describe("Ventas", () => {
       calcularTotal(5, 2, "CA", "Varios", 20, "Antiguo Recurrente"),
     ).toEqual(28.15);
   });
+
+  //Si es 'Especial', 1.5% de descuento sobre el costo de envío.
+  it("Si es 'Especial', 1.5% de descuento sobre el costo de envío", () => {
+    expect(calcularTotal(5, 2, "CA", "Varios", 20, "Especial")).toEqual(
+      28.0625,
+    );
+  });
 });

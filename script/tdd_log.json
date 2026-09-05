@@ -1070,9 +1070,31 @@
     "testId": 41
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2ef8a22c33f9216d8abcfbe029748aecabc25927",
     "commitName": "feat: Si es 'Antiguo Recurrente', 1% de descuento sobre el costo de envío.",
     "commitTimestamp": 1788566561944,
     "testId": 41
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 1,
+    "numTotalTests": 37,
+    "timestamp": 1788566633008,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1788566667813,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si es 'Especial', 1.5% de descuento sobre el costo de envío.",
+    "commitTimestamp": 1788566689538,
+    "testId": 42
   }
 ]

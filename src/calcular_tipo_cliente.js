@@ -3,6 +3,8 @@ function calcularTipoCliente(costoEnvio, tipoCliente) {
     return costoEnvio - costoEnvio * 0.005;
   } else if (tipoCliente === "Antiguo Recurrente") {
     return costoEnvio - costoEnvio * 0.01;
+  } else if (tipoCliente === "Especial") {
+    return costoEnvio - costoEnvio * 0.015;
   }
   return costoEnvio;
 }
