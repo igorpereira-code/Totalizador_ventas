@@ -228,6 +228,7 @@ describe("Ventas", () => {
       estado: "AL",
       categoria: "Vestimenta",
       tipoCliente: "Antiguo Recurrente",
+      precioNeto: 5000,
       descuentoPorVolumen: 250,
       ajustePorCategoria: 0,
       descuentoFijoAplicado: 0,

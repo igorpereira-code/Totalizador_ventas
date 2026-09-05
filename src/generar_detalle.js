@@ -83,6 +83,7 @@ function generarDetalle(
     estado,
     categoria,
     tipoCliente,
+    precioNeto: redondear(precioNeto),
     descuentoPorVolumen: redondear(descuentoPorVolumen),
     ajustePorCategoria: redondear(ajustePorCategoria),
     descuentoFijoAplicado: redondear(descuentoFijoAplicado),

@@ -50,6 +50,7 @@ form.addEventListener("submit", (event) => {
     <p>Estado: ${detalle.estado}</p>
     <p>Categoría: ${detalle.categoria}</p>
     <p>Tipo de cliente: ${detalle.tipoCliente}</p>
+    <p>Precio neto: $${detalle.precioNeto.toFixed(2)}</p>
     <p>Descuento por volumen: $${detalle.descuentoPorVolumen.toFixed(2)}</p>
     <p>Ajuste por categoría (descuento): $${detalle.ajustePorCategoria.toFixed(2)}</p>
     <p>Impuesto por estado: $${detalle.impuestoPorEstado.toFixed(2)}</p>

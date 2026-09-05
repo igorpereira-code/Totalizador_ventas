@@ -1272,9 +1272,23 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "09a8c580893277d6e75e398ae05b9bdd5334dde3",
     "commitName": "refactor: Index y presenter completo",
     "commitTimestamp": 1788570300796,
     "testId": 48
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 0,
+    "numTotalTests": 49,
+    "timestamp": 1788617224633,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: presenter y generar detalle",
+    "commitTimestamp": 1788619966290,
+    "testId": 49
   }
 ]
