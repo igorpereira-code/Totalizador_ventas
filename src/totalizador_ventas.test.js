@@ -1,5 +1,6 @@
 import calcularTotal from "./totalizador_ventas";
 import calcularDesglose from "./desglose";
+import generarDetalle from "./generar_detalle.js";
 describe("Ventas", () => {
   it("El usuario ingresa cantidad de items y precio por item → se muestra el precio total ", () => {
     expect(calcularTotal(3, 2)).toEqual(6.495);
@@ -210,5 +211,31 @@ describe("Ventas", () => {
     expect(
       calcularTotal(2000, 4, "CA", "Electrónicos", 20, "Especial"),
     ).toEqual(14990.414);
+  });
+
+  it("Con orden: 50 items x $100, AL, Vestimenta, peso 90, Antiguo Recurrente", () => {
+    expect(
+      calcularTotal(50, 100, "AL", "Vestimenta", 90, "Antiguo Recurrente"),
+    ).toEqual(5360.55);
+  });
+
+  it("Se muestra el detalle completo de la orden: 50 items x $100, AL, Vestimenta, peso 90, Antiguo Recurrente", () => {
+    expect(
+      generarDetalle(50, 100, "AL", "Vestimenta", 90, "Antiguo Recurrente"),
+    ).toEqual({
+      cantidad: 50,
+      precioUnitario: 100,
+      estado: "AL",
+      categoria: "Vestimenta",
+      tipoCliente: "Antiguo Recurrente",
+      descuentoPorVolumen: 250,
+      ajustePorCategoria: 0,
+      descuentoFijoAplicado: 0,
+      impuestoPorEstado: 190,
+      ajusteImpuestoPorCategoria: 98.8,
+      costoEnvio: 325,
+      descuentoEnvioPorCliente: 3.25,
+      precioTotal: 5360.55,
+    });
   });
 });

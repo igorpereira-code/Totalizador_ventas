@@ -1152,9 +1152,47 @@
     "testId": 44
   },
   {
-    "commitId": "HEAD",
+    "commitId": "679fb1b3fee3b5b162048ff6b575dc1aa5d4d8bd",
     "commitName": "feat: Si el cliente es 'Especial', el precio neto es mayor a  y la categoría es 'Electrónicos', se aplica un descuento fijo adicional de .",
     "commitTimestamp": 1788567752624,
     "testId": 44
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 0,
+    "numTotalTests": 40,
+    "timestamp": 1788568019503,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 1,
+    "numTotalTests": 41,
+    "timestamp": 1788568778998,
+    "success": false,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 1,
+    "numTotalTests": 41,
+    "timestamp": 1788568830942,
+    "success": false,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 0,
+    "numTotalTests": 41,
+    "timestamp": 1788568921946,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Se muestra al usuario el detalle completo de todos los valores considerados: cantidad, precio unitario, estado, categoría, tipo de cliente, descuento por volumen, ajuste por categoría, descuento fijo aplicado (si corresponde), impuesto por estado, ajuste de impuesto por categoría, costo de envío, descuento de envío por cliente, y precio total.",
+    "commitTimestamp": 1788568951258,
+    "testId": 45
   }
 ]
