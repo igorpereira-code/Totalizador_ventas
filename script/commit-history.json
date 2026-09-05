@@ -760,12 +760,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "696be38f5348eca9ad2ef0bf3385ab977d118db4",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-04T23:59:53.000Z",
       "message": "feat: Si el cliente es 'Recurrente', se aplica 0.5% de descuento sobre el costo de envío. Refactor: matodos calcular_peso volumetrico y calcular tipo cliente",
-      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/696be38f5348eca9ad2ef0bf3385ab977d118db4"
     },
     "stats": {
       "total": 41,
@@ -775,6 +775,25 @@
     },
     "coverage": 100,
     "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-05T00:02:40.000Z",
+      "message": "feat: Si es 'Antiguo Recurrente', 1% de descuento sobre el costo de envío.",
+      "url": "https://github.com/igorpereira-code/Totalizador_ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-05"
+    },
+    "coverage": 100,
+    "test_count": 36,
     "failed_tests": 0,
     "conclusion": "success"
   }

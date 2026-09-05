@@ -183,4 +183,11 @@ describe("Ventas", () => {
       28.2375,
     );
   });
+
+  //Si es 'Antiguo Recurrente', 1% de descuento sobre el costo de envío.
+  it("Si es 'Antiguo Recurrente', 1% de descuento sobre el costo de envío", () => {
+    expect(
+      calcularTotal(5, 2, "CA", "Varios", 20, "Antiguo Recurrente"),
+    ).toEqual(28.15);
+  });
 });

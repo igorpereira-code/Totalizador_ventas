@@ -1032,9 +1032,47 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "696be38f5348eca9ad2ef0bf3385ab977d118db4",
     "commitName": "feat: Si el cliente es 'Recurrente', se aplica 0.5% de descuento sobre el costo de envío. Refactor: matodos calcular_peso volumetrico y calcular tipo cliente",
     "commitTimestamp": 1788566394867,
     "testId": 40
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1788566439383,
+    "success": true,
+    "testId": 41
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 1,
+    "numTotalTests": 36,
+    "timestamp": 1788566448510,
+    "success": false,
+    "testId": 41
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 1,
+    "numTotalTests": 36,
+    "timestamp": 1788566485372,
+    "success": false,
+    "testId": 41
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 0,
+    "numTotalTests": 36,
+    "timestamp": 1788566543320,
+    "success": true,
+    "testId": 41
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Si es 'Antiguo Recurrente', 1% de descuento sobre el costo de envío.",
+    "commitTimestamp": 1788566561944,
+    "testId": 41
   }
 ]
