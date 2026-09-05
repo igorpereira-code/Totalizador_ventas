@@ -14,11 +14,33 @@
 
       <label for="estado-select">Código de estado:</label>
       <select id="estado-select">
+        <option value="CA" selected>CA</option>
         <option value="UT">UT</option>
         <option value="NV">NV</option>
         <option value="TX">TX</option>
         <option value="AL">AL</option>
-        <option value="CA">CA</option>
+      </select>
+
+      <label for="categoria-select">Categoría de producto:</label>
+      <select id="categoria-select">
+        <option value="Varios" selected>Varios</option>
+        <option value="Alimentos">Alimentos</option>
+        <option value="Bebidas alcohólicas">Bebidas alcohólicas</option>
+        <option value="Material de escritorio">Material de escritorio</option>
+        <option value="Muebles">Muebles</option>
+        <option value="Electrónicos">Electrónicos</option>
+        <option value="Vestimenta">Vestimenta</option>
+      </select>
+
+      <label for="peso-volumetrico">Peso volumétrico por unidad:</label>
+      <input type="number" id="peso-volumetrico" step="0.01" />
+
+      <label for="cliente-select">Tipo de cliente:</label>
+      <select id="cliente-select">
+        <option value="Normal" selected>Normal</option>
+        <option value="Recurrente">Recurrente</option>
+        <option value="Antiguo Recurrente">Antiguo Recurrente</option>
+        <option value="Especial">Especial</option>
       </select>
 
       <input type="submit" value="Calcular Total" id="calcular-total-button" />

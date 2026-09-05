@@ -1266,9 +1266,15 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2a9de7f29af6ad9c1a32d0acb6864b6505651560",
     "commitName": "refactor: Revisión final de validaciones: cantidad, precio, peso volumétrico y combinaciones inválidas quedan todas cubiertas con mensajes de error claros.",
     "commitTimestamp": 1788569739642,
     "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: Index y presenter completo",
+    "commitTimestamp": 1788570300796,
+    "testId": 48
   }
 ]
